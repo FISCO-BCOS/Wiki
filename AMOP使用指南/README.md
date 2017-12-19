@@ -9,8 +9,7 @@
 - 易用：使用AMOP时，无需在SDK做任何额外配置。
 
 ## 逻辑架构
-![](./images/AMOP.Jpg)
-
+![](./images/AMOP.Jpg)  
 以银行典型IDC架构为例，各区域概述：  
 - SF区：机构内部的业务服务区，此区域内的业务子系统使用区块链SDK，如无DMZ区，配置SDK连接到区块链节点，反之配置SDK连接到DMZ区的区块链前置。  
 - DMZ区：机构内部的外网隔离区，非必须，如有，该区域部署区块链前置。  
@@ -240,9 +239,17 @@ AMOP支持在同一个区块链网络中有多个topic收发消息，topic支持
 	}
 ```
 
+## 测试
+按上述说明配置好后，用户指定一个主题：topic，执行以下两个命令可以进行测试。  
+
+启动amop服务端：
+```
+java -cp 'conf/:apps/*:lib/*' cn.webank.channel.test.Channel2Server [topic]
+```  
+启动amop客户端： 
+```java -cp 'conf/:apps/*:lib/*' cn.webank.channel.test.Channel2Client [topic] [消息内容] [消息条数]```
 
 ## 错误码
-
 - 99：发送消息失败，AMOP经由所有链路的尝试后，消息未能发到服务端，建议使用发送时生成的seq，检查链路上各个节点的处理情况。
 - 102：消息超时，建议检查服务端是否正确处理了消息，带宽是否足够。
 
