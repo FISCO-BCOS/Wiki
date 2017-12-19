@@ -242,12 +242,14 @@ AMOP支持在同一个区块链网络中有多个topic收发消息，topic支持
 ## 测试
 按上述说明配置好后，用户指定一个主题：topic，执行以下两个命令可以进行测试。  
 
-启动amop服务端：
+启动amop服务端：  
 ```
 java -cp 'conf/:apps/*:lib/*' cn.webank.channel.test.Channel2Server [topic]
 ```  
-启动amop客户端： 
-```java -cp 'conf/:apps/*:lib/*' cn.webank.channel.test.Channel2Client [topic] [消息内容] [消息条数]```
+启动amop客户端：   
+```
+java -cp 'conf/:apps/*:lib/*' cn.webank.channel.test.Channel2Client [topic] [消息内容] [消息条数]
+```
 
 ## 错误码
 - 99：发送消息失败，AMOP经由所有链路的尝试后，消息未能发到服务端，建议使用发送时生成的seq，检查链路上各个节点的处理情况。
