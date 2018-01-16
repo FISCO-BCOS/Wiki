@@ -32,6 +32,7 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 ## FISCO BCOS应用案例
 
 * [存证案例说明](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%AD%98%E8%AF%81sample%E8%AF%B4%E6%98%8E) [案例源码](https://github.com/FISCO-BCOS/evidenceSample)
+* [微粒贷备付金及对账平台](https://github.com/FISCO-BCOS/Wiki/tree/master/) 
 
 
 
