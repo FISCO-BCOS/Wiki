@@ -120,6 +120,7 @@ echo '{ "presets": ["es2017"] }' > ~/.babelrc
 
 
 **1.如何运行智能合约？**
+
 **解决方案**：目前FISCO BCOS平台已经发布了[contract_samples](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/contract_samples) (位于项目根目录下)，示范了使用Java 和 Node.js开发智能合约客户端的范例，展示了如何编译、部署、调用智能合约，供参考。更多问题细节，亦可参见[issue:智能合约问题](https://github.com/bcosorg/bcos/issues/35)
 
 
