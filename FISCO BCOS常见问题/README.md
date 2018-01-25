@@ -1,18 +1,18 @@
-#FISCO BCOS常见问题
+# FISCO BCOS常见问题
 
-##部署相关问题
+## 部署相关问题
 
-###1.如何快速安装部署FISCO BCOS？
+### 1.如何快速安装部署FISCO BCOS？
 
 **解决方案**：作为范例，[一键快速安装部署](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/sample)提供了快速编译安装FISCO BCOS、并且部署2个节点的指南。
 
-###2.如何使用Docker安装FISCO BCOS？
+### 2.如何使用Docker安装FISCO BCOS？
 **解决方案**：目前FISCO BCOS平台已经发布了Dockerfile文件和Docker Hub上预构建的镜像，并将持续同步源码的更新。想要使用Docker快速安装一个或者多个节点，请参阅[使用Docker安装部署BCOS指南。](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/docker)
 
-###3.在build路径运行"make -j2" 卡死
+### 3.在build路径运行"make -j2" 卡死
 **解决方案**：编译的过程中需要从网络上下载依赖的包，网络条件太差可能卡死。建议在网络条件良好的环境搭建FISCO BCOS，或者从其他渠道下载依赖库包后拷贝到你的编译目标路径下。亦可参见[issue：make -j2 运行卡死](https://github.com/bcosorg/bcos/issues/20)
 
-###4.AWS亚马逊云安装问题
+### 4.AWS亚马逊云安装问题
 
 #### 4.1 AWS亚马逊云Centos-7.2安装FISCO-BCOS问题：
 
@@ -37,7 +37,7 @@ Loading mirror speeds from cached hostfile
 sudo yum -y install epel-release
 ```
 
-####4.2 AWS亚马逊云/阿里云 ubuntu16.04安装FISCO-BCOS问题：
+#### 4.2 AWS亚马逊云/阿里云 ubuntu16.04安装FISCO-BCOS问题：
 
 执行apt显示 Unable to locate package lrzsz
 
@@ -54,7 +54,7 @@ E: Unable to locate package lrzsz
 
 
 
-####4.3 部署合约报异常
+#### 4.3 部署合约报异常
 
 ```bash
 root@ip-172-31-15-64:/fisco/fisco-bcos/tool# babel-node deploy.js HelloWorld
@@ -98,7 +98,7 @@ sudo apt-get install -y nodejs
 
 
 
-####4.4 npm ERR! enoent ENOENT: no such file or directory
+#### 4.4 npm ERR! enoent ENOENT: no such file or directory
 
 **解决方案**：
 
@@ -116,7 +116,7 @@ echo '{ "presets": ["es2017"] }' > ~/.babelrc
 
 
 
-##智能合约相关问题：
+## 智能合约相关问题：
 
 
 **1.如何运行智能合约？**
