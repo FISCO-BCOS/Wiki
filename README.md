@@ -38,7 +38,7 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 
 ## 常见问题
 
-* FISCO BCOS常见问题
+* [FISCO BCOS常见问题](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/README.md)
 
 
 
