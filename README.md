@@ -21,6 +21,7 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 *  [漫谈系列：浅谈以太坊智能合约的设计模式与升级方法](https://github.com/FISCO-BCOS/Wiki/tree/master/%E6%B5%85%E8%B0%88%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8D%87%E7%BA%A7%E6%96%B9%E6%B3%95%EF%BB%BF)
 
 ## FISCO BCOS特性介绍
+* [FISCO BCOS特性介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO-BCOS%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E4%BB%8B%E7%BB%8D)
 
 * [并行计算介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO-BCOS%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E4%BB%8B%E7%BB%8D)
 * [系统合约介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO-BCOS%E7%B3%BB%E7%BB%9F%E5%90%88%E7%BA%A6%E4%BB%8B%E7%BB%8D)
@@ -31,7 +32,7 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 * [FISCO BCOS权限模型](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E6%9D%83%E9%99%90%E6%A8%A1%E5%9E%8B)
 * [系统参数说明文档](https://github.com/FISCO-BCOS/Wiki/tree/master/%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3)
 ## FISCO BCOS应用案例
-
+* [FISCO BCOS应用实践](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%AD%98%E8%AF%81sample%E8%AF%B4%E6%98%8E) 
 * [存证案例说明](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%AD%98%E8%AF%81sample%E8%AF%B4%E6%98%8E) [案例源码](https://github.com/FISCO-BCOS/evidenceSample)
 * [微粒贷备付金及对账平台](https://github.com/FISCO-BCOS/Wiki/blob/master/%E3%80%90FISCO%20BCOS%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B%E3%80%91%E5%BE%AE%E7%B2%92%E8%B4%B7%E6%9C%BA%E6%9E%84%E9%97%B4%E5%AF%B9%E8%B4%A6%E5%B9%B3%E5%8F%B0/README.md) 
 
