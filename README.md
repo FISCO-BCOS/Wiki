@@ -28,7 +28,6 @@ FISCO BCOS实践指引（建议优先阅读）
 
 ## FISCO BCOS特性介绍
 * [FISCO BCOS特性介绍](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E7%89%B9%E6%80%A7%E4%BB%8B%E7%BB%8D.pdf)
-
 * [并行计算介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO-BCOS%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97%E4%BB%8B%E7%BB%8D)
 * [系统合约介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO-BCOS%E7%B3%BB%E7%BB%9F%E5%90%88%E7%BA%A6%E4%BB%8B%E7%BB%8D)
 * [共识算法优化](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%BA%94%E7%94%A8%E4%BA%8E%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9A%84%E5%A4%9A%E8%8A%82%E7%82%B9%E5%B9%B6%E8%A1%8C%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95)
