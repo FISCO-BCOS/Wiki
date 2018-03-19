@@ -2,7 +2,6 @@
 ## 浅谈FISCO BCOS的易用性
 **作者：fisco-dev** 
 
-注：文中所附具体链接均须上线后修改。
 
 FISCO BCOS是聚焦于金融领域的区块链底层平台，期望通过开源来推动生态圈的良好发展。随着开源技术的普及和参与者数量的增加，FISCO BCOS的影响范围将愈发深广，藉此最终构建出开放共赢的区块链生态圈。
 
@@ -24,10 +23,8 @@ FISCO BCOS支持一键快速安装部署，几条命令就可以运行FISCO BCOS
 一键安装脚本可用于开发和体验环境的构建，如需添加更多节点以组成规模更大的网络，详细安装方法请参考FISCO BCOS使用说明书相关章节。
 
 附：
-一键安装FISCO BCOS脚本使用说明：
-https://github.com/bcosorg/bcos/wiki/%E4%B8%80%E9%94%AE%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2
-FISCO BCOS使用说明书：
-https://github.com/bcosorg/bcos/blob/master/doc/manual/manual.md
+[一键安装FISCO BCOS脚本使用说明](https://github.com/bcosorg/bcos/wiki/%E4%B8%80%E9%94%AE%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)
+[FISCO BCOS使用说明书](https://github.com/bcosorg/bcos/blob/master/doc/manual/manual.md)
 
 
 ### SDK工具
@@ -39,8 +36,8 @@ FISCO BCOS平台提供的SDK工具，可同时支持java和node.js两种开发�
 除了面向业务，SDK还可以直接调用区块链底层功能，开发者需要熟悉区块链节点所提供的底层功能接口，基本数据结构，以及节点的部署情况，SDK则为开发者屏蔽协议编解码以及异步通信，容错等技术细节，减少繁琐的重复工作，提供了极大程度的易用性。
 
 附：
-web3sdk使用指南：
-（待上传至GitHub）
+[web3sdk使用指南](https://github.com/FISCO-BCOS/web3sdk)
+
 
 ### Sample
 
