@@ -23,6 +23,7 @@ FISCO BCOS支持一键快速安装部署，几条命令就可以运行FISCO BCOS
 一键安装脚本可用于开发和体验环境的构建，如需添加更多节点以组成规模更大的网络，详细安装方法请参考FISCO BCOS使用说明书相关章节。
 
 附：
+
 [一键安装FISCO BCOS脚本使用说明](https://github.com/bcosorg/bcos/wiki/%E4%B8%80%E9%94%AE%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)
 
 [FISCO BCOS使用说明书](https://github.com/bcosorg/bcos/blob/master/doc/manual/manual.md)
