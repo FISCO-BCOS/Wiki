@@ -10,7 +10,8 @@
     - [单节点环境](#11-单节点环境)  
     - [多节点组网](#12-多节点组网)  
     - [一键快速安装部署](#13-一键快速安装部署)  
-    - [docker节点部署](#14-docker节点部署)  
+    - [docker节点部署](#14-docker节点部署)  
+    - [物料包工具](#15-使用物料包工具快速搭建环境)
 - [二、特性简介](#二、特性简介)   
     - [权限控制](#21-权限控制)  
     - [CNS(合约命名服务)](#22-CNS(合约命名服务))  
@@ -37,7 +38,10 @@
 - ### 一键快速安装部署
   [一键快速安装部署](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/sample)：为了能够让初学者快速体验, FISCO BCOS平台提供了快速安装和节点的快速部署工具, 开发者只需要非常简单的命令既可成功搭建多个节点的环境, 不再需要繁琐的配置。  
 - ### Docker节点部署  
-  [Docker节点部署](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/docker)：FISCO BCOS同样提供了docker下的节点安装流程, 使开发者可以快速在docker环境下搭建、运行、体验。
+  [Docker节点部署](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/docker)：FISCO BCOS同样提供了docker下的节点安装流程, 使开发者可以快速在docker环境下搭建、运行、体验。  
+- ### 物料包工具  
+  [物料包工具](https://github.com/FISCO-BCOS/fisco-package-build-tool): 使用本工具, 进行一些简单配置后, 可以创建区块链节点的安装包, 然后经过一些简单的步骤, 可以快速搭建生产可用的区块链环境。 
+
 ## 二、特性简介
 - ### 权限控制  
   [权限模型](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E6%9D%83%E9%99%90%E6%A8%A1%E5%9E%8B)：与可自由加入退出、自由交易、自由检索的公有链相比，联盟链有准入许可、交易多样化、基于商业上隐私及安全考虑、高稳定性等要求。因此，联盟链在实践过程中需强调“权限”及“控制”的理念。
