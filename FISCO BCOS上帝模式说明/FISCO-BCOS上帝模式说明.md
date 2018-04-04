@@ -63,6 +63,6 @@ fisco-bcos --genesis ./genesis.json --config ./config.json --godminer ./godminer
 ```
 
 
-
+如果您觉得本文不错，欢迎[戳这里](https://github.com/FISCO-BCOS/FISCO-BCOS)给FISCO BCOS打star:star:。
 
 
