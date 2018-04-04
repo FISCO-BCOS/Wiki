@@ -90,3 +90,6 @@ FISCOBCOS存证样例演示的业务流程如下：
 存证样例地址：
 
 https://github.com/FISCO-BCOS/evidenceSample
+
+
+如果您觉得本文不错，欢迎[戳这里](https://github.com/FISCO-BCOS/FISCO-BCOS)给FISCO BCOS打star:star:。

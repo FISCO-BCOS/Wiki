@@ -2,7 +2,6 @@
 ## 浅谈FISCO BCOS的易用性
 **作者：fisco-dev** 
 
-注：文中所附具体链接均须上线后修改。
 
 FISCO BCOS是聚焦于金融领域的区块链底层平台，期望通过开源来推动生态圈的良好发展。随着开源技术的普及和参与者数量的增加，FISCO BCOS的影响范围将愈发深广，藉此最终构建出开放共赢的区块链生态圈。
 
@@ -24,10 +23,10 @@ FISCO BCOS支持一键快速安装部署，几条命令就可以运行FISCO BCOS
 一键安装脚本可用于开发和体验环境的构建，如需添加更多节点以组成规模更大的网络，详细安装方法请参考FISCO BCOS使用说明书相关章节。
 
 附：
-一键安装FISCO BCOS脚本使用说明：
-https://github.com/bcosorg/bcos/wiki/%E4%B8%80%E9%94%AE%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2
-FISCO BCOS使用说明书：
-https://github.com/bcosorg/bcos/blob/master/doc/manual/manual.md
+
+[一键安装FISCO BCOS脚本使用说明](https://github.com/bcosorg/bcos/wiki/%E4%B8%80%E9%94%AE%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2)
+
+[FISCO BCOS使用说明书](https://github.com/bcosorg/bcos/blob/master/doc/manual/manual.md)
 
 
 ### SDK工具
@@ -39,8 +38,8 @@ FISCO BCOS平台提供的SDK工具，可同时支持java和node.js两种开发�
 除了面向业务，SDK还可以直接调用区块链底层功能，开发者需要熟悉区块链节点所提供的底层功能接口，基本数据结构，以及节点的部署情况，SDK则为开发者屏蔽协议编解码以及异步通信，容错等技术细节，减少繁琐的重复工作，提供了极大程度的易用性。
 
 附：
-web3sdk使用指南：
-（待上传至GitHub）
+[web3sdk使用指南](https://github.com/FISCO-BCOS/web3sdk)
+
 
 ### Sample
 
@@ -61,9 +60,8 @@ FISCO BCOS提供了sample供开发者学习和使用，以便帮助开发者在�
 目前FISCO BCOS sample所覆盖的业务场景亦在不断丰富和完善中。
 
 附：
-存证Sample说明：
-http://note.youdao.com/noteshare?id=a46a1ecab6f33075a403e1ea4690294e&sub=1E16640626104ABCBCEE0F367D810CD4
-（待上传至GitHub）
+[存证Sample说明](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%AD%98%E8%AF%81sample%E8%AF%B4%E6%98%8E)
+
 
 ### 区块链浏览器
 
@@ -89,15 +87,18 @@ FISCO BCOS浏览器监控指标亦在持续地完善中，后续还会计划通�
 浏览器和预埋指标展示数据直观便捷，在满足多个层级的运营分析需求的同时，能大幅度降低应用难度，节省查询统计成本，提升监控效率。
 
 附：
-区块链浏览器GitHub：
-（待确定网址）
+[区块链浏览器说明](https://github.com/FISCO-BCOS/fisco-bcos-browser)
+
 
 ### 运维手册
 
 FISCO BCOS为开发者配备了完善的运维手册，囊括常见错误、升级、管理、治理等模块。区块链系统的运行逻辑具有分布式一致性，不同节点的软硬件配置也基本一致，先天的具备标准化特性，开发者可参照运维手册，自主诊断，快速获取解决方案，使用相应的工具、运维策略和运维流程等对区块链系统进行构建、部署、配置以及故障处理，从而提升反应速度、降低运维成本，最终提升运营效率。
 
 附：
-运维手册：
-（待确定网址）
+运维手册：（待补充）
 
 以上各层面的易用性，便于各领域的合作伙伴以较低成本快速搭建上层区块链应用，并且持续地高效治理和运营，在推进区块链技术的普及的同时也协助合作伙伴将精力聚焦在业务本身和商业模式的运营上，构建科技和金融深度合作的长效机制，最终达到多方受益，共同打造金融创新的区块链共赢生态。
+
+
+
+如果您觉得本文不错，欢迎[戳这里](https://github.com/FISCO-BCOS/FISCO-BCOS)给FISCO BCOS打star:star:。
