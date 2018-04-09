@@ -54,7 +54,7 @@ bodyPrefix          = []byte("b")   // bodyPrefix + num (uint64 big endian) + ha
 
 ## StateDB模块
 
-在以太坊中，账户的呈现形式是一个stateObject，所有账户首StateDB管理。StateDB中有一个成员叫trie，存储stateObject，每个stateObject有20bytes的地址，可以将其作为key；每次在一个区块的交易开始执行前，trie由一个哈希值(hashNode)恢复出来。另外还有一个map结构，也是存放stateObject，每个stateObject的地址作为map的key。
+在以太坊中，账户的呈现形式是一个stateObject，所有账户受StateDB管理。StateDB中有一个成员叫trie，存储stateObject，每个stateObject有20bytes的地址，可以将其作为key；每次在一个区块的交易开始执行前，trie由一个哈希值(hashNode)恢复出来。另外还有一个map结构，也是存放stateObject，每个stateObject的地址作为map的key。
 
 ![StateDB架构](./images/statedb_architecture.png)
 
