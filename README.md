@@ -51,6 +51,10 @@ FISCO BCOS实践指引（建议优先阅读）
 
 * [FISCO BCOS常见问题](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/README.md)
 
+## English Version
+
+* [English wiki document](https://github.com/FISCO-BCOS/Wiki/tree/master/en)
+
 
 
 

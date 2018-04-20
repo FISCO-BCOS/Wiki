@@ -1,5 +1,7 @@
 # FISCO BCOS One-Click Installation Manual
 
+[中文版本：一键快速安装部署](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/sample)
+
 This manual helps FISCO BCOS beginners get started quickly.  FISCO BCOS provides automation scripts to help you install and deploy FISCO BCOS easily.
 
 ## Notes:

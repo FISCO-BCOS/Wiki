@@ -1,5 +1,7 @@
 # FISCO BCOS Docker Installation Manual
 
+[中文版本：使用Docker安装部署FISCO BCOS指南](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/docker)
+
 This manual helps a  FISCO BCOS beginner get started quickly. You just need to follow the steps in this documentation to start a blockchain network of two nodes on a linux server where Docker is installed already.
 
 We recommend a Docker version of 17.03 and above. For Docker installation, please refer to [Official Documents](https://docs.docker.com/) or the appendix.

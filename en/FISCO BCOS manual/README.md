@@ -1,5 +1,7 @@
 # FISCO-BCOS Manual  
 
+[中文版本：FISCO BCOS使用说明书1.0](https://github.com/FISCO-BCOS/FISCO-BCOS/tree/master/doc/manual)
+
 ## Preface  
 
 This documentation is a part of the Financial Blockchain Shenzhen Consortium Blockchain Open Source platform (FISCO-BCOS).     
