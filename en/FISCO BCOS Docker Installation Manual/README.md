@@ -19,22 +19,22 @@ chmod +x start_fisco_docker.sh
 > The following execution result shows that docker nodes are started successfully.
 
 ```log
---------------Tried to start the docker nodes--------------
-Node Info:
-  nodename 	IP		rpcport		p2pport		channelPort	 logdirectory
+--------------Nodes info in docker--------------
+Nodes info:
+  node name 	IP		rpcport		p2pport		channelPort	log dir
   node0		0.0.0.0		35500		53300		54300		/log-fisco-bcos/node0
   node1		0.0.0.0		35501		53301		54301		/log-fisco-bcos/node1
-Verify whether the nodes are started:
+To check whether the nodes are started:
 	# ps -ef |grep fisco-bcos
-Verify whether the nodes are connected:
+To check whether the nodes are connected each other:
 	# cat /log-fisco-bcos/node0/* | grep peers
-Verify whether the nodes can reach consensus: 
+To check whether the nodes can seal: 
 	# tail -f /log-fisco-bcos/node0/* | grep ++++
 ```
 
-## Verify the nodes
+## Check Correctness
 
-### 1. Verify the process
+### 1. Check the process
 
 ```sh
 ps -ef |grep fisco-bcos
@@ -47,7 +47,7 @@ root      9509  9507 10 15:26 ?        00:00:02 fisco-bcos --genesis /bcos-data/
 root      9510  9508 10 15:26 ?        00:00:02 fisco-bcos --genesis /bcos-data/node1/genesis.json --config /bcos-data/node1/config.json
 ```
 
-### 2. Verify the connection
+### 2. Check the connection
 
 > Execute the following command:
 
@@ -61,7 +61,7 @@ cat /log-fisco-bcos/node0/* | grep peers
 INFO|2017-11-29 07:26:48|Connected to 1 peers
 ```
 
-### 3. Verify the consensus mechanism
+### 3. Check the sealing information
 
 > Execute the following command:
 
