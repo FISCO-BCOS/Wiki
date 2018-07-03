@@ -38,7 +38,7 @@ key是由区块头的前缀，区块号和区块hash构成。value是区块头�
 
 区块体（Body）的存储格式为：
 ```
-headerPrefix + num (uint64 big endian) + hash -> rlpEncode(header)
+bodyPrefix + num (uint64 big endian) + hash -> rlpEncode(body)
 ```
 key是由区块体前缀，区块号和区块hash构成。value是区块体的RLP编码。
 
