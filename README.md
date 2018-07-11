@@ -26,7 +26,7 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 FISCO BCOS技术指引
 ---------
 * [FISCO BCOS实践指引（建议优先阅读）](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%BC%95)
-* [FISCO BCOS“极简”Java应用开发入门](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%BC%95
+* [FISCO BCOS“极简”Java应用开发入门](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E2%80%9C%E6%9E%81%E7%AE%80%E2%80%9DJava%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8)
 
 ## FISCO BCOS特性介绍
 * [FISCO BCOS特性介绍](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E7%89%B9%E6%80%A7%E4%BB%8B%E7%BB%8D.pdf)
