@@ -219,6 +219,6 @@ cd $fiscobcos/cert
 2018-07-09 18:25:51.984 [main] INFO  bcosliteclient(CounterClient.java:106) - addcount-->inc:100,before：500,after：600,memo=when tx done,counter inc 100
 
 2018-07-09 18:25:51.998 [main] INFO  bcosliteclient(CounterClient.java:145) - <--startBlockNumber = 251,finish blocknmber=252
-```
-   
+```  
+
 到此为止，已经有了一条可运行的链，一个可自由发挥的客户端，可以继续深度开发体验如CNS，系统合约，权限等更多的FISCO BCOS功能了。
