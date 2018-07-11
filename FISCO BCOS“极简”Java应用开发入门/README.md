@@ -34,7 +34,7 @@ P.S.也可以直接参考[存证业务样例](https://github.com/FISCO-BCOS/evid
 
 本样例提供一个最简智能合约，演示对字符串和整型数的基本操作，包括设置和读取计数器名字、增加计数、读取当前计数。并通过receipt log的方式，把修改记录log到block里，供客户端查询参考。这里提一下，receipt log用处很大，可以是区块链和业务端同步交易处理过程和结果信息的有效渠道。 合约代码如下，非常的简单。
 
-[Counter.sol](/images/Counter.sol)
+[Counter.sol](./images/Counter.sol)
 
 首先到下载编译了web3sdk的linux服务器上，进入web3sdk目录，如/mydata/web3sdk。
 
@@ -131,7 +131,7 @@ cd $fiscobcos/cert
 
 打开eclispe建立一个简单的java app工程，假定命名bcosliteclient（也可以直接下载附件的工程,在eclipse里直接import-> exist gradle project）。建议在workspace里也import进web3sdk的工程代码，便于调试和阅读接口代码，查看类定义和区块链接口等。
 
-[bcosliteclient.zip](/images/bcosliteclient.zip)
+[bcosliteclient.zip](./images/bcosliteclient.zip)
 
 可使用附件工程里的build.gradle配置文件，包含了基本的java库依赖，在classpath下放置附件工程里applicationContext.xml文件（基于web3sdk1.2版本）,默认的log4j2.xml配置文件默认把所有信息打印到控制台，便于观察，可以根据自己的喜好和需要修改
 
@@ -145,7 +145,7 @@ cd $fiscobcos/cert
 
 打开java项目的applicationContext.xml文件,部分信息可以先用默认的,先关注这些配置项
 
-![Java Config](/images/javaconfig.png)
+![Java Config](./images/javaconfig.png)
 
 找到”区块链节点信息配置”一节，配置密码  
 ```
@@ -199,7 +199,7 @@ cd $fiscobcos/cert
 
 代码相当简单，可直接阅读和使用。
 
-![CounterClient.java](/images/CounterClient.java)
+![CounterClient.java](./images/CounterClient.java)
 
 注意，如果采用java客户端部署合约，则把main方法里的deployCounter()注释去掉。
 
