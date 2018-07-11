@@ -210,6 +210,7 @@ cd $fiscobcos/cert
 采用了java的Future特性来等待区块链共识，示例代码是同步堵塞等待，可以根据自己的需要，基于Future改为异步等待或响应式通知。
 
 运行后，屏幕打印出以下信息，则大功告成
+
 ```
 2018-07-09 18:25:51.963 [main] INFO  bcosliteclient(CounterClient.java:90) - setname-->oldname:[MyCounter from:500,inc：100],newname=[MyCounter from:500,inc：100]
 
@@ -219,4 +220,5 @@ cd $fiscobcos/cert
 
 2018-07-09 18:25:51.998 [main] INFO  bcosliteclient(CounterClient.java:145) - <--startBlockNumber = 251,finish blocknmber=252
 ```
+   
 到此为止，已经有了一条可运行的链，一个可自由发挥的客户端，可以继续深度开发体验如CNS，系统合约，权限等更多的FISCO BCOS功能了。
