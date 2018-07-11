@@ -149,7 +149,7 @@ cd $fiscobcos/cert
 
 打开java项目的applicationContext.xml文件,部分信息可以先用默认的,先关注这些配置项
 
-![img](/images/javaconfig.png)
+![Java Config](/images/javaconfig.png)
 
 找到”区块链节点信息配置”一节，配置密码
 ```
@@ -219,6 +219,4 @@ cd $fiscobcos/cert
 
 2018-07-09 18:25:51.998 [main] INFO  bcosliteclient(CounterClient.java:145) - <--startBlockNumber = 251,finish blocknmber=252
 ```
-说是“极简”，实际上配置和工具使用步骤还是有几步，所以回头给标题中的“极简”加了双引号：）FISCO BCOS开源社区会逐步优化，争取可以做到“秒写代码”。
-
-至少到此为止，已经有了一条可运行的链，一个可自由发挥的客户端，可以继续深度开发体验如CNS，系统合约，权限等更多的FISCO BCOS功能了。
+到此为止，已经有了一条可运行的链，一个可自由发挥的客户端，可以继续深度开发体验如CNS，系统合约，权限等更多的FISCO BCOS功能了。
