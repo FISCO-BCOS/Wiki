@@ -34,11 +34,7 @@ P.S.也可以直接参考[存证业务样例](https://github.com/FISCO-BCOS/evid
 
 本样例提供一个最简智能合约，演示对字符串和整型数的基本操作，包括设置和读取计数器名字、增加计数、读取当前计数。并通过receipt log的方式，把修改记录log到block里，供客户端查询参考。这里提一下，receipt log用处很大，可以是区块链和业务端同步交易处理过程和结果信息的有效渠道。 合约代码如下，非常的简单。
 
-
-
 [Counter.sol](/images/Counter.sol)
-
-
 
 首先到下载编译了web3sdk的linux服务器上，进入web3sdk目录，如/mydata/web3sdk。
 
@@ -151,24 +147,26 @@ cd $fiscobcos/cert
 
 ![Java Config](/images/javaconfig.png)
 
-找到”区块链节点信息配置”一节，配置密码
+找到”区块链节点信息配置”一节，配置密码  
 ```
     <property name="keystorePassWord" value="【生成client.keystore时对应的密码】" />
 
     <property name="clientCertPassWord" value="【生成client.keystore时对应的密码】" />
 ```
+
 配置节点信息：
 ```
 <property name="connectionsStr">
 
     <list>
 
-  	    <value>【节点id】@【IP】:【端口】</value>
+	      <value>【节点id】@【IP】:【端口】</value>
 
     </list>
 
 </property>
 ```
+
 节点id、ip、端口，和需要连接的节点必须一致。
 
 如节点服务器上，节点数据目录所在路径为/mydata/nodedata-1/，那么节点id可以在/mydata/nodedata-1/data/node.nodeid文件里查到，而其他信息在/mydata/nodedata-1/config.json里可以查到。
@@ -179,22 +177,22 @@ cd $fiscobcos/cert
 
 另外，可以进行系统合约地址配置，在调用SystemProxy|AuthorityFilter等系统合约工具时需要配置。对应信息需要搭链时的服务器环境去查询：
 ```
-<bean id="toolConf" class="org.bcos.contract.tools.ToolConf">
+	<bean id="toolConf" class="org.bcos.contract.tools.ToolConf">
 
-    <property name="systemProxyAddress" value="【系统合约代理地址,对应节点config.json里的systemproxyaddress】" />
+	    <property name="systemProxyAddress" value="【系统合约代理地址,对应节点config.json里的systemproxyaddress】" />
 
-  		<!--GOD账户的私钥-->
+     <!--GOD账户的私钥-->
 
-   	<property name="privKey" value="【对应搭链创建god帐号环境$fiscobcos/tool/godInfo.txt里的privKey】" />
+     <property name="privKey" value="【对应搭链创建god帐号环境$fiscobcos/tool/godInfo.txt里的privKey】" />
 
-  		<!--GOD账户-->
+     <!--GOD账户-->
 
-  		<property name="account" value="【对应搭链创建god帐号环境$fiscobcos/tool/godInfo.txt里的address】" />
+	    <property name="account" value="【对应搭链创建god帐号环境$fiscobcos/tool/godInfo.txt里的address】" />
 
-    <property name="outPutpath" value="./output/" />
+    	<property name="outPutpath" value="./output/" />
 
-</bean>
-···
+	</bean>
+```
 ## 6. 编写java客户端代码调用合约（在客户端开发环境）
 
 示例用一个单独的CounterClient.java文件来包含所有相关代码，包括初始化客户端，部署合约，修改名字，发交易调用计数器计数，查询交易回执等。注意项目目录下的Counter.java是由web3sdk的compile.sh工具根据Counter.sol合约自动生成的，不需要进行修改。
@@ -210,7 +208,6 @@ cd $fiscobcos/cert
 采用了java的Future特性来等待区块链共识，示例代码是同步堵塞等待，可以根据自己的需要，基于Future改为异步等待或响应式通知。
 
 运行后，屏幕打印出以下信息，则大功告成
-
 ```
 2018-07-09 18:25:51.963 [main] INFO  bcosliteclient(CounterClient.java:90) - setname-->oldname:[MyCounter from:500,inc：100],newname=[MyCounter from:500,inc：100]
 
@@ -219,6 +216,5 @@ cd $fiscobcos/cert
 2018-07-09 18:25:51.984 [main] INFO  bcosliteclient(CounterClient.java:106) - addcount-->inc:100,before：500,after：600,memo=when tx done,counter inc 100
 
 2018-07-09 18:25:51.998 [main] INFO  bcosliteclient(CounterClient.java:145) - <--startBlockNumber = 251,finish blocknmber=252
-```  
-
+```
 到此为止，已经有了一条可运行的链，一个可自由发挥的客户端，可以继续深度开发体验如CNS，系统合约，权限等更多的FISCO BCOS功能了。
