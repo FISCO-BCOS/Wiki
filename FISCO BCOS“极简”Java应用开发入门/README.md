@@ -199,7 +199,7 @@ cd $fiscobcos/cert
 
 代码相当简单，可直接阅读和使用。
 
-![CounterClient.java](./images/CounterClient.java)
+[CounterClient.java](./images/CounterClient.java)
 
 注意，如果采用java客户端部署合约，则把main方法里的deployCounter()注释去掉。
 
