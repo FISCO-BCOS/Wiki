@@ -23,9 +23,10 @@ FISCO BCOS平台相关的技术问题，可以到官方技术交流群讨论。
 *  [漫谈系列：聊聊区块链数据的“安全”和“控制权”](https://github.com/FISCO-BCOS/Wiki/tree/master/漫谈系列：聊聊区块链数据的“安全”和“控制权”)
 *  [漫谈系列：区块链应用后台混合架构介绍](https://github.com/FISCO-BCOS/Wiki/tree/master/漫谈系列：区块链应用后台混合架构介绍)
 
-FISCO BCOS实践指引（建议优先阅读）
+FISCO BCOS技术指引
 ---------
-* [FISCO BCOS实践指引](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%BC%95)
+* [FISCO BCOS实践指引（建议优先阅读）](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%BC%95)
+* [FISCO BCOS“极简”Java应用开发入门](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%BC%95
 
 ## FISCO BCOS特性介绍
 * [FISCO BCOS特性介绍](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E7%89%B9%E6%80%A7%E4%BB%8B%E7%BB%8D.pdf)
