@@ -67,7 +67,7 @@ cd $web3sdk/bin
 ```
 执行编译合约的任务
 ```
- ./compile.sh org.bcosliteclient #注意参数时对应之前建立的java文件的包名
+./compile.sh org.bcosliteclient #注意参数是java项目调用合约的代码所在包名
 cd $web3sdk/dist/output
 ```
 可以看到应该生成了合约的.abi, .bin等文件，以及在当前目录的子目录下 org/bcosliteclient/Counter.java文件。这个java文件可以复制到客户端开发环境里，后续建立的java工程的对应的包路径下。
