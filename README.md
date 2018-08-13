@@ -48,9 +48,18 @@ FISCO BCOS技术指引
 * [海量存证数据 + 区块链实现](https://github.com/FISCO-BCOS/Wiki/tree/master/%E6%B5%B7%E9%87%8F%E5%AD%98%E8%AF%81%E6%95%B0%E6%8D%AE%20%2B%20%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AE%9E%E7%8E%B0) 
 
 
+## 【RUN赋能计划】系列技术直播
+
+* [FISCO BCOS的安全架构](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F.md)
+
+
 ## 常见问题
 
 * [FISCO BCOS常见问题](https://github.com/FISCO-BCOS/Wiki/tree/master/FISCO%20BCOS%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/README.md)
+
+
+
+
 
 ## English Version
 
