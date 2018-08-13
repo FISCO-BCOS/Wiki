@@ -37,7 +37,7 @@
 
 为什么这样说呢，我们可以从数据维度拆开看，数据要素包括价值标识，比如资产数、金额、余额这些私有的数据，还有个人信息，数据归属和控制关系，比如你这个人名下有哪些账户，这也是一种数据，还有经常容易被忽略的行为数据，包括交易频率、分时的交易数，比如有几家机构搭了一个链，A和B机构交易，B和C机构交易，A和B每天交易一万次，B和C每天交易一百次，这个其实可以说明很多问题的，比如活跃度，比如关系紧密程度，包括资金来往等等。这也是有很强隐私性的。
 
-![img](file:///C:/Users/aryashi/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+![img](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/1.png)
 
  
 
