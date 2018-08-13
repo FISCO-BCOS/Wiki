@@ -63,7 +63,7 @@ cd $web3sdk/dist/contracts
 ```
 把Counter.sol放置到$web3sdk/dist/contracts下。
 ```
-cd $web3sdk/bin
+cd $web3sdk/dist/bin
 ```
 执行编译合约的任务
 ```
