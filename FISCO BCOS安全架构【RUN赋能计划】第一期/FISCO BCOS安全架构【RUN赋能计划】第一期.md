@@ -65,7 +65,7 @@
 
  
 
-![img](file:///C:/Users/aryashi/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![img](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/2.png)
 
  
 
@@ -334,11 +334,11 @@ web3sdk支持国密的说明文档：https://git.io/f49Yl
 
 回复:我们一般说加密的效率一方面包括了对明文加密和解密的速度，但是这都是针对加解密阶段来说的。另一方加密的效率也包括加密方法的密钥生成，密钥协商阶段等。对称加密的一大缺点是密钥的管理与分配，换句话说，如何把密钥发送到需要解密你的消息的人的手里是一个问题。在发送密钥的过程中，密钥有很大的风险会被黑客们拦截。现实中通常的做法是将对称加密的密钥进行非对称加密，然后传送给需要它的人。
 
-![img](file:///C:/Users/aryashi/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+![img](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/3.png)
 
  
 
-![img](file:///C:/Users/aryashi/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+![img](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/4.png)
 
 假设场景是当Alice希望将文件加密发送给 Bob
 
@@ -402,7 +402,7 @@ web3sdk支持国密的说明文档：https://git.io/f49Yl
 
 扫码加入官方微信群，与学霸小姐姐交流~
 
-![https://github.com/FISCO-BCOS/FISCO-BCOS/raw/master/doc/FISCO-BCOS.jpeg](file:///C:/Users/aryashi/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+![https://github.com/FISCO-BCOS/FISCO-BCOS/raw/master/doc/FISCO-BCOS.jpeg](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84%E3%80%90RUN%E8%B5%8B%E8%83%BD%E8%AE%A1%E5%88%92%E3%80%91%E7%AC%AC%E4%B8%80%E6%9C%9F/333.jpg)
 
  
 
