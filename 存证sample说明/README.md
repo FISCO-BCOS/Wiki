@@ -72,7 +72,7 @@ evidence/src/main/resources/applicationContext.xml文件配置说明
  					<bean class="cn.webank.channel.handler.ChannelConnections">
  						<property name="connectionsStr">
  							<list> 
-                               <value>User@127.0.0.1:8080</value><!-- 格式：节点nodeId@IP地址:链上链下端口-->
+                               <value>User@127.0.0.1:8541</value><!-- 格式：节点nodeId@IP地址:链上链下端口-->
  							</list>
  						</property>
  					</bean>
