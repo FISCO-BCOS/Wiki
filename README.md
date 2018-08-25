@@ -41,6 +41,7 @@ FISCO BCOS技术指引
 * [FISCO BCOS上帝模式说明](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E4%B8%8A%E5%B8%9D%E6%A8%A1%E5%BC%8F%E8%AF%B4%E6%98%8E/README.md)  
 * [FISCO BCOS和以太坊差异综述](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%92%8C%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%B7%AE%E5%BC%82%E7%BB%BC%E8%BF%B0/README.md)  
 ## FISCO BCOS应用案例
+* [FISCO BCOS案例精编](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E6%A1%88%E4%BE%8B%E7%B2%BE%E7%BC%96201808.pdf) 
 * [FISCO BCOS应用实践](https://github.com/FISCO-BCOS/Wiki/blob/master/FISCO%20BCOS%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5.pdf) 
 * [存证案例说明](https://github.com/FISCO-BCOS/Wiki/tree/master/%E5%AD%98%E8%AF%81sample%E8%AF%B4%E6%98%8E) [案例源码](https://github.com/FISCO-BCOS/evidenceSample)
 * [微粒贷备付金及对账平台](https://github.com/FISCO-BCOS/Wiki/blob/master/%E3%80%90FISCO%20BCOS%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B%E3%80%91%E5%BE%AE%E7%B2%92%E8%B4%B7%E6%9C%BA%E6%9E%84%E9%97%B4%E5%AF%B9%E8%B4%A6%E5%B9%B3%E5%8F%B0/README.md) 
