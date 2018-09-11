@@ -1,3 +1,7 @@
+[![image for the blockchain contest](https://github.com/FISCO-BCOS/FISCO-BCOS/blob/master/doc/imgs/application_contest.png "点击图片报名")](https://con.geekbang.org/)
+
+
+
 # FISCO BCOS知识库
 
 欢迎来到FISCO BCOS知识库专区。
