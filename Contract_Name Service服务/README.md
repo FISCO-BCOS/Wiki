@@ -261,35 +261,6 @@ cns_manager.js  ........................Begin........................
 
 ```
 
-- eth_sendTransaction
-```shell
-请求：
-{
-  "jsonrpc": "2.0",
-  "method": "eth_sendTransaction",
-  "params": [
-    {
-      "data": {
-        "contract": "",   //调用合约名称
-        "version": "",    //调用合约的版本号
-        "func": "",       //调用合约的接口
-        "params": [       //参数
-        ]
-      },
-      "randomid": "2"
-    }
-  ],
-  "id": 1
-}
-
-返回：
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "result": "" //交易hash
-}
-```
-
 - eth_sendRawTransaction
   rpc请求以及返回格式跟之前完全相同,不同为之前rlp编码data字段为十六进制字符串,现在data的值改为：
 
@@ -403,22 +374,12 @@ cns add operation => cns_name = HelloWorld/v-1.0
 - RPC调用接口
 ```shell
 
-1. 调用HelloWorld默认版本（即没有指定版本号）的set接口
-curl -X POST --data  '{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{"data":{"contract":"HelloWorld","version":"","func":"set","params":["call defaut version"]},"randomid":"3"}],"id":1}'  "http://127.0.0.1:8746"  
-
-{"id":1,"jsonrpc":"2.0","result":"0x77218708a73aa8c17fb9370a29254baa8f504e71b12d01d90eae0b2ef9818172"}
-
-2. 调用HelloWorld默认版本（即没有指定版本号）的get接口
+1. 调用HelloWorld默认版本（即没有指定版本号）的get接口
 curl -X POST --data  '{"jsonrpc":"2.0","method":"eth_call","params":[{"data":{"contract":"HelloWorld","version":"","func":"get","params":[]}},"latest"],"id":1}'  "http://127.0.0.1:8746"  
 
 {"id":1,"jsonrpc":"2.0","result":"[\"call defaut version\"]\n"}
 
-3. 调用HelloWorld v-1.0版本的set接口
-curl -X POST --data  '{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{"data":{"contract":"HelloWorld","version":"v-1.0","func":"set","params":["call v-1.0 version"]},"randomid":"4"}],"id":1}'  "http://127.0.0.1:8746"  
-
-{"id":1,"jsonrpc":"2.0","result":"0xf43349d7be554fd332e8e4eb0c69e23292ffa8d127b0500c21109b60784aaa1d"}
-
-4. 调用HelloWorld v-1.0版本的get接口
+2. 调用HelloWorld v-1.0版本的get接口
  curl -X POST --data  '{"jsonrpc":"2.0","method":"eth_call","params":[{"data":{"contract":"HelloWorld","version":"v-1.0","func":"get","params":[]}},"latest"],"id":1}'  "http://127.0.0.1:8746"  
 
 {"id":1,"jsonrpc":"2.0","result":"[\"call v-1.0 version\"]\n"}
