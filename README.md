@@ -48,16 +48,6 @@ FISCO BCOS已落地应用达数十个，场景覆盖政务、金融、公益、�
 
 目前社区活跃着数千名开发者和关注者，来自全国乃至全世界的几百家企业，各行业的研发及业务团队，大学、研究所等科研机构，共同面向社区提供形式多样的支持，包括在线社群、线下活动、教学培训、项目技术支持、开发者大赛以及产业孵化等。
 
-## 贡献代码
-
-要参与进来，很简单，你可以：
-
-- Star我们！
-- 提交代码(Pull requests)，我们有[代码贡献流程](https://mp.weixin.qq.com/s/hEn2rxqnqp0dF6OKH6Ua-A
-)和[编码规范](../CODING_STYLE.md)。
-- 也可以[提问](https://github.com/FISCO-BCOS/FISCO-BCOS/issues)和[提交BUG](https://github.com/FISCO-BCOS/FISCO-BCOS/issues)。
-- 加入[微信群](https://github.com/FISCO-BCOS/FISCO-BCOS-DOC/blob/release-2.0/images/community/WeChatQR.jpg)反馈和交流。
-- 欢迎反馈代码存在的安全漏洞，如果发现，请在[这里](https://security.webank.com)上报。
 
 ## 加入我们
 
